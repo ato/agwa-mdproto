@@ -40,7 +40,7 @@ public class MdProto implements Handler {
 
 	Handler routes = routes(
 			resources("/webjars", "META-INF/resources/webjars"),
-			GET("/extract", this::extract), GET("/text", this::text),
+			GET("/text", this::text),
 			GET("/xml", this::xml),
 			PublicationsScrapers.routes,
 			GET("/", (request) -> {
@@ -49,10 +49,7 @@ public class MdProto implements Handler {
 
 	Handler app;
 
-	public Response extract(Request request) {
-		return render("extract.ftl");
-	}
-
+	
 	private ContentHandler getXmlContentHandler(Writer writer)
 			throws TransformerConfigurationException {
 		SAXTransformerFactory factory = (SAXTransformerFactory) SAXTransformerFactory

@@ -19,6 +19,14 @@
             <li>Word: <a href="text?url=http://content.webarchive.nla.gov.au/gov/wayback/20140801071808/http://www.health.gov.au/internet/main/publishing.nsf/Content/A69978FAABB1225ECA257CD3001810B7/$File/Review-of-Medicare-Locals-may2014.docx">text</a>, <a href="xml?url=http://content.webarchive.nla.gov.au/gov/wayback/20140801071808/http://www.health.gov.au/internet/main/publishing.nsf/Content/A69978FAABB1225ECA257CD3001810B7/$File/Review-of-Medicare-Locals-may2014.docx">xml</a>
           </ul>
         </ul>
+        
+        <li>Goal questions
+        <ul>
+          <li>For each print item in the Catalogue do we have it in Voyager?
+          <li>Which electronic publications are we missing?
+          <li>Can we update our broken links?
+          <li>Can we generate catalogue records in an automated or assisted way? 
+        </ul>  
       </ul>
     </div>
   </div>
